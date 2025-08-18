@@ -1,5 +1,3 @@
-import { Check } from 'lucide-react'
-import React from 'react'
 import CheckBox from '../components/CheckBox'
 const tableData = [
   {
