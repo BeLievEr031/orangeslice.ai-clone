@@ -54,7 +54,7 @@ function Hero() {
                         </p>
                         <div className="flex  flex-row gap-4  ">
                             <a
-                                className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 shadow py-2 group h-12 rounded-full bg-white px-6 text-black hover:bg-neutral-200 flex items-center "
+                                className="justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 shadow py-2 group h-12 rounded-full bg-white px-6 text-black hover:bg-neutral-200 flex items-center "
                                 href="https://tally.so/r/3q840Y"
                             >
                                 Book a demo
@@ -77,7 +77,7 @@ function Hero() {
                         </div>
                     </div>
                     <div>
-                        <div className="mt-4 flex grid w-full grid-cols-2 place-items-center justify-center gap-4 px-12 pb-12 sm:flex sm:flex-row sm:gap-8 sm:px-0">
+                        <div className="mt-4 grid w-full grid-cols-2 place-items-center justify-center gap-4 px-12 pb-12 sm:flex sm:flex-row sm:gap-8 sm:px-0">
                             <img
                                 src={img1}
                                 alt="Mortgage"
