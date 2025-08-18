@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Hero from "./sections/Hero"
+import InsightHighlight from "./sections/InsightHighlight"
 import SalesAgentSection from "./sections/SalesAgentSection"
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Hero />
         <div className="h-px w-full bg-neutral-700"></div>
         <SalesAgentSection />
+        <InsightHighlight />
       </div>
     </main>
   )
