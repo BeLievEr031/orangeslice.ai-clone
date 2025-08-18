@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
-    <div className="text-4xl">App</div>
+    <main className="min-h-screen">
+      <div className="bg-background text-primary">
+        <Navbar />
+      </div>
+    </main>
   )
 }
 
