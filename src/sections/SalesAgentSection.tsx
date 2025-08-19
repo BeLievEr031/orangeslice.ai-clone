@@ -1,5 +1,6 @@
 import BGRectangleImg from "../assets/bg-rectangle.svg"
 import AgentImg from "../assets/agent.png"
+import BlackLogoImg from "../assets/black_logo.svg"
 function SalesAgentSection() {
     return (
         <div className="relative px-4 text-black md:h-[700px] md:px-20">
@@ -19,7 +20,7 @@ function SalesAgentSection() {
                 <div className="flex h-full flex-col justify-center md:w-1/2">
                     <div className="flex max-w-md flex-col text-center md:text-left">
                         <div className="flex flex-row items-center justify-center gap-2 md:justify-start">
-                            <img src="/black_logo.svg" className="mb-2 w-10" alt="" />
+                            <img src={BlackLogoImg} className="mb-2 w-10" alt="BlackLogoImg" />
                             <span className="text-3xl tracking-tight">
                                 Orange Slice <span className="font-extralight">Agents</span>
                             </span>
